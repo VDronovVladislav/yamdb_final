@@ -45,7 +45,7 @@ jobs:
         steps:
           - name: Go to Dockerfile directory
             run: |
-              cd api_ymdb/
+              cd api_yamdb/
 
           - name: Check out the repo
             uses: actions/checkout@v2 
