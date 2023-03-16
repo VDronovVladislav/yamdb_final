@@ -60,5 +60,5 @@ jobs:
             with:
               push: true
               tags: vdronovvladislav/api_yamdb:latest
-              file: api_yamdb/Dockerfile
+              context: api_yamdb
 
