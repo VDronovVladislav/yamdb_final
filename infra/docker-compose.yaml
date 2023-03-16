@@ -14,7 +14,7 @@ services:
 
       
   web:
-    build: ../api_yamdb/
+    image: vdronovvladislav/api_yamdb:latest
     restart: always
     volumes:
 

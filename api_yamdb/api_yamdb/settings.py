@@ -137,4 +137,4 @@ SIMPLE_JWT = {
 
 AUTH_USER_MODEL = 'users.User'
 
-CONTACT_EMAIL = 'almaz200@bk.ru'
+CONTACT_EMAIL = 'vdronovvladislav@gmail.com'
