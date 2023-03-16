@@ -76,9 +76,7 @@ MIT License
 ```
 
 Workflow:
-```
 ![workflow](https://github.com/VDronovVladislav/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-```
 
 # Об авторе:
 Привет. Меня зовут Дронов Владислав. Студент 17+ когорты направления Python-разработки.
