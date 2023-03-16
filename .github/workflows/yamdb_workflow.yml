@@ -46,9 +46,11 @@ jobs:
           - name: Check out the repo
             uses: actions/checkout@v2 
 
-          - name: Set up Docker Buildx
+          - name: Go to Dockerfile Directory
             run: |
               cd api_yamdb/
+
+          - name: Set up Docker Buildx
             uses: docker/setup-buildx-action@v1 
 
           - name: Login to Docker 
