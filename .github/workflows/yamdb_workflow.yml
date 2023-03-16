@@ -43,6 +43,10 @@ jobs:
         needs: tests
 
         steps:
+          - name: Go to Dockerfile directory
+            run: |
+              cd api_ymdb/
+
           - name: Check out the repo
             uses: actions/checkout@v2 
 
