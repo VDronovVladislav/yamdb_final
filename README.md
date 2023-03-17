@@ -5,7 +5,7 @@
 Клонировать репозиторий и перейти в него в командной строке:
   
 ```
-git@github.com:VDronovVladislav/infra_sp2.git
+git@github.com:VDronovVladislav/yamdb_final.git
 ```
 
 Отредактировать .env файл. Шаблон наполнения:
@@ -49,9 +49,11 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-Проект доступен по адресу:
+Адреса для проверки проекта:
 ```
-http://localhost/
+http://84.201.129.205/api/v1/
+http://84.201.129.205/admin/
+http://84.201.129.205/redoc/
 ```
 
 Для заполнения базы данными поочередно и в таком порядке выполнить команды:
