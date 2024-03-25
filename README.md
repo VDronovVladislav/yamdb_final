@@ -3,7 +3,7 @@
 Произведения делятся на категории и жанры. Администратор может добавлять произведения, категории и жанры.
 Пользователи оставляют к произведениям текстовые отзывы и ставят произведению оценку в диапазоне от одного до десяти, из пользовательских оценок формируется усреднённая оценка произведения — рейтинг.
 ## Стек:
-Стек: Django,Gunicorn, nginx, Rest API (DRF), PostgreSQL, Djoser, Simple JWT, Docker, CI/CD (GitHub
+Django,Gunicorn, nginx, Rest API (DRF), PostgreSQL, Djoser, Simple JWT, Docker, CI/CD (GitHub
 Actions)
 ## инcтрукция по запуску:
 
