@@ -82,6 +82,3 @@ docker-compose down -v
 ```
 MIT License
 ```
-
-Workflow:
-> ![workflow](https://github.com/VDronovVladislav/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
